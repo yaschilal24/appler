@@ -1,0 +1,251 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+a{/* this for all anchor link undelin none*/
+    text-decoration: none;
+    color: blue;
+}
+.innerhead img{
+    width: 20px;
+}
+.head{
+    background-color: black;
+}
+.innerhead ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    padding-left:20px ;
+    font-size: 20px;
+}
+.innerhead a{
+    color: white;
+    text-decoration: none;
+}
+.link{
+    display: flex;
+    gap: 5px;
+}
+ ul{   
+       list-style: none;
+}
+h1{
+    font-size:40px ;
+}
+
+.section1{
+width: 100%;
+} 
+ .macbook-pro{
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    width: 100%;
+ }
+ .macbook-pro p{
+    font-size: 25px;
+ }
+.iphone11-pro{
+    background-image: url(./image/home/iphone11-pro-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    justify-items: center;
+    height: 300px;
+    color: white;
+    padding: 20px;
+}
+.iphone-11{
+    background-image: url(./image/home/iphone11-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    justify-items: center;
+    height: 300px; 
+    padding: 20px;
+}
+ 
+/* .wacth-phone{
+display: flex;
+justify-content: center;
+ justify-items: center;
+} */
+.wacth{
+     background-image: url(./image/home/watch-series-5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    justify-items: center;
+    height: 300px;
+    padding: 10px;
+}
+.wacth img,.phone img,.Tv img,.ipad{
+    width: 130px;
+}
+.phone{
+    background-image: url(./image/home/apple-card.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    justify-items: center;
+    height: 300px; 
+}
+.Tv{
+background-image: url(./image/home/apple-tv-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    justify-items: center;
+    height: 300px; 
+    position: relative;
+}
+.tvi {
+position:absolute;
+top: 4%;
+left: 42%;
+}
+.servant img{
+  position:absolute;
+top: 50%;
+left: 0px;
+width: 100%; 
+}
+.air{
+background-color: #000000;
+    background-position: center;
+    /* background-size: cover; */
+    justify-content: center;
+    justify-items: center;
+    height: 400px; 
+    width: 100%;
+    color: white;
+    padding: 20px;
+    /* margin-bottom: 5px; */
+}
+.air img{
+    height:260px ;
+} 
+.ipad{
+   background-image: url(./image/home/new-ipad.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    justify-items: center;
+    height: 300px;  
+    width: 100%;
+}
+.air a{
+text-align: center;
+display: flex;
+}
+
+
+.mac{
+    background-color: whitesmoke;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    justify-items: center;
+    height: 500px; 
+    margin-top: 60px;
+
+}
+ .section2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+ }
+ .mac-ipad{
+    display:flex ;
+    flex-direction: column;
+    gap: 20px;
+ }
+ @media(min-width :961px){
+    .innerhead ul{
+        display: flex;
+        flex-direction: row;
+      padding-inline: 20px;  
+    }
+    h1{
+        font-size: 50px;
+    }
+     .iphone11-pro{
+        height: 580px;
+        padding-top: 30px;
+     }
+     p,a, em{
+        font-size: 30px;
+     }
+     .iphone-11{
+        height: 580px;
+     }
+     .section2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+     }
+     .wacth-phone{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+     }
+     .wacth{
+        height: 580px;
+        padding-top: 30px;
+         width: 100%;
+     }
+     .phone{
+      height: 580px;
+        padding-top: 30px;
+         width: 100%;
+     }
+     .phone img{
+        width: 200px;
+     }
+     .Tv-air{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        gap: 20px;
+     }
+     .Tv{
+        width: 100%;
+        height: 580px; 
+
+     }
+     .air{
+         width: 100%;
+        height: 580px;
+     }
+     .mac-ipad{
+      display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        margin-top:20px auto ;  
+     }
+     .mac{
+        width: 100%;
+        height: 580px;
+        margin-top: 0%;
+     }
+     .ipad{
+          width: 100%;
+        height: 580px;
+        padding-top: 30px;
+        background-color: white;
+     }
+ }
